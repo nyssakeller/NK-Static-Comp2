@@ -1,0 +1,315 @@
+/* Header Styles */
+
+body {
+    background-color: rgba(36, 38, 49, 0.4);
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #242631;
+    height: 28%;
+    width: 101%;
+}
+
+section {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1.5% 40% 1.5%;
+    width: 98%;
+}
+
+.headding{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: auto
+}
+
+h1 {
+    color: #fcfffc;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 300%;
+    margin-right: 40px;
+    text-align: right;
+    white-space: nowrap;
+} 
+
+h2 {
+    color: #242631;
+    font-size: 300%;
+    margin-left: 2%;
+}
+
+
+h5 {
+    color: #ada02d;
+    font-size: 90%;
+    margin-right: 40px;
+    padding-top: 25px;
+    position: relative;
+    text-align: right;
+}
+
+.arrow-img {
+    height: 12px;
+    margin-left: 2px;
+    width: 12px;
+}
+
+.top-three-icon {
+    color: #fff;
+    font-size: 160%;
+    display: inline;
+    margin-top: 70px;
+    white-space: nowrap;
+}
+
+img {
+    margin-right: 8px;
+    width: 20px;
+}
+
+#tots-icon, #sabre-icon,
+#paper-icon{
+    margin-left: 5%;
+}
+
+
+  
+/* Card-Styles*/
+
+article {
+    background-color: #fff;
+    border: solid 2px #a9aaa5;
+    box-shadow: 2px 0px 4px #727272;
+    display: inline-block;
+    height: 80%;
+    margin: .3%;
+    width: 24%;
+}
+
+#michael {
+    background-image: url('http://cdn.playbuzz.com/cdn/72597fa5-ba37-41e4-8d5c-6f4e645e1c3c/41a1acdb-7afc-4737-b0d2-01f8fd964b82.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+#dwight {
+    background-image: url('https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2F84faf92b-4706-4be1-b2e7-a0cdb6607921.jpg?w=740&h=437&fit=crop&crop=faces&auto=format&q=70');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+#jim {
+    background-image: url('https://az616578.vo.msecnd.net/files/2016/10/16/636121976236053856-1211364047_Jim2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+#pam {
+    background-image: url('https://az616578.vo.msecnd.net/files/2016/02/27/635922047166174307986109480_pam-halpert-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+#kevin {
+    background-image: url('http://1.bp.blogspot.com/-rvRJNkFtgAc/VQHc3ADXTZI/AAAAAAAACSk/56N00O4Jy3E/s1600/kevin%2Bmalone%2Brandom%2Bquote%2Bgenerator.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+#angela {
+    background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2015-05/19/13/enhanced/webdr09/enhanced-18311-1432055161-1.jpg?downsize=715:*&output-format=auto&output-quality=auto');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+#andy {
+    background-image: url('https://theofficescranton.files.wordpress.com/2012/09/andy-bernard-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+#stanley {
+    background-image: url('http://az616578.vo.msecnd.net/files/2015/12/02/6358463267296001631948925956_tumblr_mbtd0mByFb1qmzfpgo1_500.png');
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+}
+
+.icon {
+    height: 10%;
+    margin: 10px; 
+    width: 15%;
+}
+
+h3 {
+    color: #242631;
+    font-size: 140%;
+    font-weight: bold;
+    line-height: 30%;
+    margin-left: 30px;
+    margin-top: 130px;
+}
+
+.date {
+    font-size: 85%;
+    line-height: 30%;
+    margin-bottom: 25px;
+}
+
+.link {
+    background-color: rgba(36, 38, 49, 0.13) ;
+    margin-bottom: 25px;
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+
+p {
+    color: #242631;
+    margin: 10px 30px;
+}
+
+p.job-title {
+    font-size: 120%;
+    line-height: 40%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.num{
+    color: #ada02d;
+    font-size: 250%;
+    line-height: 40%;
+}
+
+@media(min-width: 1090px) {
+    h3 {
+        margin-top: 180px;
+    }
+}
+
+@media(max-width: 1089px) {
+
+    section {
+        align-items: center;
+        display: flex;
+        margin: 10px 3%;
+    }
+
+    h1 {
+        text-align: center;
+    } 
+
+    h2 {
+        margin-left: 4%;
+    }
+
+    h3 {
+        margin-top: 150px;
+    }
+
+    article {
+        display: inline-block;
+        height: 70%;
+        margin: .6%;
+        width: 30%;
+    }
+}
+
+@media(max-width: 790px) {
+
+    .headding {
+        flex-direction: column;
+    }
+
+    .top-three-icon{
+        font-size: 120%;
+        margin: auto 0;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 0 auto .2% auto;   
+    }
+
+    h2 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    h5 {
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    section {
+        display: flex;
+        justify-content: center;
+
+    }
+    article{
+        margin:  1%;
+        width: 40%;
+    }
+}
+
+@media(max-width: 650px) {
+
+    h1{
+        display: block;
+        font-size: 2.5em;
+        margin: -15px auto .5px;
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 5% 1%;
+    } 
+
+    h3 {
+        margin-top: 120px;
+    }
+
+    h5 {
+        margin: auto;
+        padding: 25px;
+        text-align: center;
+    }  
+
+    section {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 1%;
+    }
+
+    article {
+        border: solid 2px #999;
+        height: 455px;
+        width: 315px;
+    } 
+
+    .top-three-icon {
+        font-size: 110%;
+        margin: 0;
+        text-align: center;
+    }
+
+    #tots-icon, #sabre-icon,
+    #paper-icon{
+        margin-left: 4.5%;
+
+    }
+
+} 
+
+
